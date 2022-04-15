@@ -15,7 +15,7 @@ html {
   min-height: 100vh;
   background: #14162e;
   border:2px solid white;
-  border-radius: 20px;
+  
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -259,12 +259,12 @@ select {
   float: right;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  width: 12rem;
+  width: 14rem;
   height: 34px;
   font-weight: 600;
-    font-size: 13px;
-    text-align: center;
-    border-radius: 5px;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 5px;
 }
 .select::after {
   content: "\25BC";
@@ -291,5 +291,6 @@ option{
   .fa-check{
     margin-left: -3.5rem;
   }
+  
   
 }
